@@ -1,6 +1,6 @@
-const container = document.getElementByID("fruit")
+const container = document.getElementByID("list-container")
 
-for(let i = 1 ; i <= 5 ; i++) {
+for(let i = 1; i <= 5; i++) {
   const p = document.createElement("p");
   p.text.Content = "This is item #" + i ; 
 container.appendChild(p);
@@ -9,7 +9,7 @@ container.appendChild(p);
 let j = 1
 while(j <= 5) {
   const p = document.createElement(p);
-  p.textContent = "Whileloop item# + j
+  p.textContent = "Whileloop item# + j;
     container.appendChild(p);
   j++;
 }

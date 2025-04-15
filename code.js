@@ -2,14 +2,14 @@ const container = document.getElementById("list-container");
 
 for(let i = 1; i <= 5; i++) {
   const p = document.createElement("p");
-  p.textContent = "This is item #" + i ; 
+  p.textContent = "This is item #" + i; 
 container.appendChild(p);
 }
 
 let j = 1;
 while(j <= 5) {
   const p = document.createElement("p");
-  p.textContent = "Whileloop item# + j;
+  p.textContent = "While loop item #" + j;
     container.appendChild(p);
   j++;
 }

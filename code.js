@@ -15,11 +15,11 @@ while(j <= 5) {
 }
 
 
-for (let p = 1; p <= 20; p++) {
+for (let j = 1; j <= 20; j++) {
   const p = document.createElement("p");
-  p.textContent = "red or blue #" + p;
+  p.textContent = "Red or blue #" + j;
 
-  if (p % 2 == 0) {
+  if (j % 2 == 0) {
     
     p.style.color = "blue";
   } else {

@@ -17,7 +17,7 @@ while(j <= 5) {
 
 for (let j = 1; j <= 20; j++) {
   const p = document.createElement("p");
-  p.textContent = "Red or blue #" + j;
+  p.textContent = "red or blue #" + j;
 
   if (j % 2 == 0) {
     

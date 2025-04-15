@@ -1,8 +1,8 @@
-const container = document.getElementByID("list-container")
+const container = document.getElementById("list-container")
 
 for(let i = 1; i <= 5; i++) {
   const p = document.createElement("p");
-  p.text.Content = "This is item #" + i ; 
+  p.textContent = "This is item #" + i ; 
 container.appendChild(p);
 }
 
